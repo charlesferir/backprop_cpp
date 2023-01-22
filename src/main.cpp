@@ -27,9 +27,8 @@ int main(int argc, char** argv)
     if (debug)
         console->set_level(spdlog::level::debug);
 
-    console->debug("test log");
-
     Eigen::Matrix<int, 2, 3> a({{1, 2, 3}, {4, 5, 6}});
     Eigen::Matrix<int, 3, 2> b(a.transpose());
-    std::cout << "Hello, world!\n" << a << "\n\n" << b << debug;
+    console->debug("test log");
+    std::cout << "Hello, world!\n" << a << "\n\n" << b << "\n";
 }
