@@ -1,0 +1,9 @@
+{
+    "configurations": [
+        {
+            "name": "linux",
+            "includePath": ["${workspaceFolder}/**", "~/.conan/data/**"]
+        }
+    ],
+    "version": 4
+}
