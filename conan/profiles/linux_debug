@@ -1,4 +1,0 @@
-include(linux)
-
-[settings]
-build_type=Debug
